@@ -19,7 +19,7 @@ namespace LemCalculator
             ILogger log)
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
-            log.LogInformation("Hello Rajiv!");
+            log.LogInformation("Hello, Rajiv!");
             try
             {
                 var elmData = new ParseDataFile();
