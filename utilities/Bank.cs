@@ -1,5 +1,0 @@
-// Rajiv
-public class Bank
-{
-
-}

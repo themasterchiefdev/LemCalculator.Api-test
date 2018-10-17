@@ -1,0 +1,46 @@
+[
+  {
+    "name": "BNZ",
+    "bankWebsite": "https://www.bnz.co.nz",
+    "bankLvrLink": "https://www.bnz.co.nz",
+    "fee": {
+      "loanOver95": 1.15,
+      "loanBetween90To95": 1.0,
+      "loanBetween85to90": 0.75,
+      "loanBetween80to85": 0.35
+    }
+  },
+  {
+    "name": "ASB",
+    "bankWebsite": "https://www.anz.co.nz",
+    "bankLvrLink": "https://www.asb.co.nz/home-loans-mortgages/interest-rates-fees.html",
+    "fee": {
+      "loanOver95": 1.5,
+      "loanBetween90To95": 1.3,
+      "loanBetween85to90": 0.75,
+      "loanBetween80to85": 0.3
+    }
+  },
+  {
+    "name": "ANZ",
+    "bankWebsite": "https://www.asb.co.nz",
+    "bankLvrLink": "https://anz.co.nz/auxiliary/rates-fees-agreements/home-loans/#Fees",
+    "fee": {
+      "loanOver95": 2.0,
+      "loanBetween90To95": 2.0,
+      "loanBetween85to90": 0.75,
+      "loanBetween80to85": 0.25
+    }
+  },
+  {
+    "name": "Kiwibank",
+    "bankWebsite": "https://www.kiwibank.co.nz/",
+    "bankLvrLink": "https://www.kiwibank.co.nz/personal-banking/rates-and-fees/fees/home-loans/",
+    "fee": {
+      "loanOver95": 0,
+      "loanBetween90To95": 0.8,
+      "loanBetween85to90": 0.5,
+      "loanBetween80to85": 0.25
+    }
+  }
+]
