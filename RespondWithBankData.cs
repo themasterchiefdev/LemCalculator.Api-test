@@ -23,6 +23,7 @@ namespace LemCalculator
             try
             {
                 var elmData = new ParseDataFile();
+                log.LogInformation($"{JsonConvert.SerializeObject(elmData.LoadJson().ToList())}");
                 return new OkObjectResult($"{JsonConvert.SerializeObject(elmData.LoadJson().ToList())}");
             }
             catch (Exception e)
